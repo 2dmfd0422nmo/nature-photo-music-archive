@@ -17,31 +17,41 @@ const Hero = () => {
 
       <div className="relative z-10 text-center max-w-4xl mx-auto px-6">
         <h1 className="text-6xl md:text-7xl font-bold text-gray-800 mb-6 font-montserrat">
-          Природа в
-          <span className="text-emerald-600 block">объективе и звуке</span>
+          Javriyat —
+          <span className="text-emerald-600 block">Природа в объективе</span>
         </h1>
 
         <p className="text-xl md:text-2xl text-gray-600 mb-12 font-light leading-relaxed">
           Погрузитесь в мир удивительных пейзажей и успокаивающих звуков природы
         </p>
 
-        <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
+        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center flex-wrap">
           <Button
             size="lg"
-            className="bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-4 text-lg font-medium"
+            className="bg-emerald-600 hover:bg-emerald-700 text-white px-6 py-3 text-base font-medium"
             onClick={() => scrollToSection("gallery")}
           >
-            <Icon name="Camera" size={20} />
+            <Icon name="Camera" size={18} />
             Смотреть фото
           </Button>
 
           <Button
             variant="outline"
             size="lg"
-            className="border-emerald-600 text-emerald-600 hover:bg-emerald-50 px-8 py-4 text-lg font-medium"
+            className="border-emerald-600 text-emerald-600 hover:bg-emerald-50 px-6 py-3 text-base font-medium"
+            onClick={() => scrollToSection("videos")}
+          >
+            <Icon name="Video" size={18} />
+            Смотреть видео
+          </Button>
+
+          <Button
+            variant="outline"
+            size="lg"
+            className="border-purple-600 text-purple-600 hover:bg-purple-50 px-6 py-3 text-base font-medium"
             onClick={() => scrollToSection("music")}
           >
-            <Icon name="Music" size={20} />
+            <Icon name="Music" size={18} />
             Слушать музыку
           </Button>
         </div>
