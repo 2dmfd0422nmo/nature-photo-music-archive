@@ -17,32 +17,33 @@ const Hero = () => {
 
       <div className="relative z-10 text-center max-w-4xl mx-auto px-6">
         <h1 className="text-6xl md:text-7xl font-bold text-gray-800 mb-6 font-montserrat">
-          Javriyat —
-          <span className="text-emerald-600 block">Природа в объективе</span>
+          Информационные технологии —
+          <span className="text-indigo-600 block">в лингвистике</span>
         </h1>
 
         <p className="text-xl md:text-2xl text-gray-600 mb-12 font-light leading-relaxed">
-          Погрузитесь в мир удивительных пейзажей и успокаивающих звуков природы
+          Общие принципы компьютерного обучения языку по А.В. Зубову и И.И.
+          Зубовой
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center flex-wrap">
           <Button
             size="lg"
-            className="bg-emerald-600 hover:bg-emerald-700 text-white px-6 py-3 text-base font-medium"
-            onClick={() => scrollToSection("gallery")}
+            className="bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-3 text-base font-medium"
+            onClick={() => scrollToSection("presentation")}
           >
-            <Icon name="Camera" size={18} />
-            Смотреть фото
+            <Icon name="BookOpen" size={18} />
+            Начать презентацию
           </Button>
 
           <Button
             variant="outline"
             size="lg"
-            className="border-emerald-600 text-emerald-600 hover:bg-emerald-50 px-6 py-3 text-base font-medium"
-            onClick={() => scrollToSection("videos")}
+            className="border-indigo-600 text-indigo-600 hover:bg-indigo-50 px-6 py-3 text-base font-medium"
+            onClick={() => scrollToSection("principles")}
           >
-            <Icon name="Video" size={18} />
-            Смотреть видео
+            <Icon name="Lightbulb" size={18} />
+            Изучить принципы
           </Button>
 
           <Button

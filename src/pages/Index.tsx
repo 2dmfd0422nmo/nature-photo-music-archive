@@ -1,15 +1,13 @@
 import Hero from "@/components/Hero";
-import PhotoGallery from "@/components/PhotoGallery";
-import VideoPlayer from "@/components/VideoPlayer";
-import MusicPlayer from "@/components/MusicPlayer";
+import PresentationSlider from "@/components/PresentationSlider";
+import PrinciplesOverview from "@/components/PrinciplesOverview";
 
 const Index = () => {
   return (
     <div className="min-h-screen">
       <Hero />
-      <PhotoGallery />
-      <VideoPlayer />
-      <MusicPlayer />
+      <PrinciplesOverview />
+      <PresentationSlider />
     </div>
   );
 };
