@@ -17,13 +17,13 @@ const Hero = () => {
 
       <div className="relative z-10 text-center max-w-4xl mx-auto px-6">
         <h1 className="text-6xl md:text-7xl font-bold text-gray-800 mb-6 font-montserrat">
-          Информационные технологии —
-          <span className="text-indigo-600 block">в лингвистике</span>
+          Коллекция видео —
+          <span className="text-indigo-600 block">природа и город</span>
         </h1>
 
         <p className="text-xl md:text-2xl text-gray-600 mb-12 font-light leading-relaxed">
-          Общие принципы компьютерного обучения языку по А.В. Зубову и И.И.
-          Зубовой
+          Откройте для себя 6 уникальных видео: от таинственных лесов до
+          неоновых огней мегаполиса
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center flex-wrap">
@@ -50,10 +50,10 @@ const Hero = () => {
             variant="outline"
             size="lg"
             className="border-purple-600 text-purple-600 hover:bg-purple-50 px-6 py-3 text-base font-medium"
-            onClick={() => scrollToSection("music")}
+            onClick={() => scrollToSection("videos")}
           >
-            <Icon name="Music" size={18} />
-            Слушать музыку
+            <Icon name="Video" size={18} />
+            Смотреть видео
           </Button>
         </div>
       </div>
